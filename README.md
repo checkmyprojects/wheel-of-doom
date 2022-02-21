@@ -1,4 +1,4 @@
-# Título del Proyecto
+# Wheel of Doom
 
 _Acá va un párrafo que describa lo que es el proyecto_
 
@@ -81,12 +81,11 @@ Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones
 
 ## Autores ✒️
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
+Francisco Domínguez 
+Glaucia Meire
+Jesús Vázquez
+Yessica Pérez
+Raquel Castro
 
 ## Licencia 📄
 
