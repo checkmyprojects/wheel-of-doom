@@ -1,5 +1,6 @@
 # Wheel of Doom
 
+Diseñar una web para elegir un valor aleatorio por nosotros.
 _Acá va un párrafo que describa lo que es el proyecto_
 
 ## Comenzando 🚀
