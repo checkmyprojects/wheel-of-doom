@@ -89,16 +89,15 @@ Raquel Castro
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+Este proyecto está bajo la Licencia (123 Coders!) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
 
 ## Expresiones de Gratitud 🎁
 
 * Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
+* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. Si estás muy agradecido/a, un Audi o BMW 🚗 lo aceptamos también.
 * Da las gracias públicamente 🤓.
 * etc.
 
 
 
 ---
-⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
