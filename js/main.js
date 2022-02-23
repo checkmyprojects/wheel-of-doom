@@ -1,8 +1,15 @@
 function randomSelect() {
     // const input = document.getElementById('textarea').value;
-    let trimmedText = textarea.value.replace(/\n+/g,'\n'); 
-    textarea.value = trimmedText;
     let input = document.getElementById('textarea').value;
+    input = input + '\n'; 
+    textarea.value = input;
+    // let trimmedText = textarea.value.replace(/\n+/g,'\n'); 
+    // let trimmedText = input.replace(/\n+/g,'\n'); 
+    // let trimmedText = input.replace(/^\s*$[\r\n]*|^[^\S\r\n]+|[^\S\r\n]+$|([^\S\r\n]){2,}/gm, '$1'); 
+    let trimmedText = input.replace(/\n(\n+)/g, '$1'); 
+    // let trimmedText = input.split('\n').filter(x=> x !== '').join('\n');
+    textarea.value = trimmedText;
+    input = trimmedText.trim();
     // console.log(input);
     const lines = input.split('\n');
     // console.log(lines);
@@ -27,7 +34,7 @@ function randomSelect() {
     // console.log(textAreaOld);
     // console.log(randomLine);
     // textAreaOld.value = textAreaOld.value.replace(randomLine.value, "");
-    document.getElementById('textarea').value = textAreaOld.replace(randomLine, "");
+    document.getElementById('textarea').value = textAreaOld.replace(randomLine + "\n", "");
     // document.getElementById('textarea').value = textAreaOld.replace('\n'+'\n', "");
     // console.log(textAreaOld);
 }
