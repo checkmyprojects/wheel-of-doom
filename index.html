@@ -4,9 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Wheel of Doom</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Bag of Doom</h1>
+    </header>
+    <main>
+        <section>
+            <!-- div para imagen de bolsa y nombres del interior -->
+            <div id="resultado">
+                <h3>El ganador es: <br /><span id = "winner"></span></h3>
+                <ul id="list" in></ul>
+            </div>
+            <div class="container-bag">
+                <h3>
+                    Introduce los nombres en líneas separadas.
+                </h3>
+                
+                <!-- imagen de la bolsa -->
+                <!-- texto nombres -->
+            </div>
+            <!--  -->
+            <!-- CODIGO PARA EL RESET DEL BOTON -->
+            <!-- <input type="button" onclick="reset()" value="Reset">
+            function reset() {
+                document.getElementById("textarea").value = "";
+                }
+                 -->
+            <!-- div para texto y botones -->
+            <div class="container-text">
+                <textarea id="textarea" placeholder="Nombres..." cols="30" rows="12"></textarea>
+                <button onclick="randomSelect()">Sorteo!</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <script src="js/main.js"></script>
+    </footer>
 </body>
 </html>
