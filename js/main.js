@@ -38,3 +38,10 @@ function randomSelect() {
     // document.getElementById('textarea').value = textAreaOld.replace('\n'+'\n', "");
     // console.log(textAreaOld);
 }
+function reset() {
+    document.getElementById("textarea").value= "";
+    console.log (list.innerHTML);
+    list.innerHTML = "";
+    winner.innerHTML = "";   
+    }
+    
