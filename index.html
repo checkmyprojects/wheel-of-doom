@@ -7,20 +7,32 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Wheel of Doom</title>
 </head>
-<body id="body">
+<body id="body"> <!--identificación para buscar la imagen de fondo-->
     <header>
         <h1>Bag of Doom</h1>
     </header>
     <main>
         <section>
-            <select fondo="fondo" id="fondo" onchange="cambiarFondo(this)">
-                <option value="url(https://images.unsplash.com/photo-1542093978-f89a1a42f876?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80)">Imagen1</option>
-                <option value="url(https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)">Imagen2</option>
-                <option value="url(https://images.unsplash.com/photo-1542451313056-b7c8e626645f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80)">Imagen3</option>
-                <option value="url(https://mobimg.b-cdn.net/v3/fetch/3a/3afda9fff30a7e792a9fdf819267a536.jpeg?h=900&r=0.5)">Imagen4</option>
-                <option value="url(https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)">Imagen5</option>
-                <option value="url(https://images.pexels.com/photos/2150/sky-space-dark-galaxy.jpg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260)">Imagen6</option>
-        </select>
+            <select fondo="fondo" id="fondo" onchange="cambiarFondo(this)"> Estilisa su pagina
+                <option value="url(https://images6.alphacoders.com/518/thumb-1920-518877.jpg)">Carnaval</option>
+                <option value="url(https://images7.alphacoders.com/322/thumb-1920-322616.jpg)">Halloween</option>
+                <option value="url(https://images7.alphacoders.com/299/thumb-1920-299582.jpg)">SanValentin</option>
+                <option value="url(https://images7.alphacoders.com/993/thumb-1920-993764.jpg)">Primavera</option>
+                <option value="url(https://images7.alphacoders.com/313/thumb-1920-313699.jpg)">Sangre</option>
+                <option value="url(https://images2.alphacoders.com/386/thumb-1920-38622.jpg)">Montaña</option>
+                <option value="url(https://images3.alphacoders.com/939/thumb-1920-939176.png)">Estrellas</option>
+                <option value="url(https://images7.alphacoders.com/775/775120.jpg)">Simpsons</option>
+                <option value="url(https://images.alphacoders.com/257/thumb-1920-257871.jpg)">Matemáticas</option>
+                <option value="url(https://images.alphacoders.com/674/674925.png)">Viajes</option>
+                <option value="url(https://images7.alphacoders.com/810/810663.png)">Planetas</option>
+                <option value="url(https://images6.alphacoders.com/887/887690.jpg)">Fotografia</option>
+                <option value="url(https://images3.alphacoders.com/589/58905.jpg)">Música</option>
+                <option value="url(https://images8.alphacoders.com/659/659493.jpg)">Navidad</option>
+
+
+
+
+            </select>
             <!-- div para imagen de bolsa y nombres del interior -->
             <div id="resultado">
                 <h3>El ganador es: <br /><span id = "winner"></span></h3>

@@ -1,7 +1,11 @@
+
+*{
+    background-size: 1450px;
+}
 .container-bag{
     height: 400px;
     /* width: 600px; */
-    background-color: red;
+    background-color: transparent;
     /* margin-left: 20%; */
     background-image: url(../img/money-bag-vector.svg);
     background-size: 60%;
@@ -9,7 +13,6 @@
     background-position: center;
     text-align: center;
 }
-
 
 .container-text{
 
