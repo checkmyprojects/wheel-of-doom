@@ -18,6 +18,22 @@ function randomSelect() {
     document.getElementById('textarea').value = userInput.replace(randomLine, "");
 }
 
+function reset() { //funtión to reset textarea and list
+    document.getElementById("textarea").value= "";
+    console.log (list.innerHTML);
+    list.innerHTML = "";
+    winner.innerHTML = "";   
+    }
+
+function cambiarFondo(x) { //funtion to change backgroud
+    console.log(x.value);
+
+    let body = document.getElementById("body");
+    body.style.backgroundImage = x.value;
+}
+
+
+
 
 
 
@@ -63,17 +79,4 @@ function randomSelect2() {
     document.getElementById('textarea').value = textAreaOld.replace(randomLine, "");
     // document.getElementById('textarea').value = textAreaOld.replace('\n'+'\n', "");
     // console.log(textAreaOld);
-}
-function reset() {
-    document.getElementById("textarea").value= "";
-    console.log (list.innerHTML);
-    list.innerHTML = "";
-    winner.innerHTML = "";   
-    }
-
-function cambiarFondo(x) {
-    console.log(x.value);
-
-    let body = document.getElementById("body");
-    body.style.backgroundImage = x.value;
 }
