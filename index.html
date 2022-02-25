@@ -4,15 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Wheel of Doom</title>
 </head>
-<body>
+<body id="body">
     <header>
         <h1>Bag of Doom</h1>
     </header>
     <main>
         <section>
+            <select fondo="fondo" id="fondo" onchange="cambiarFondo(this)">
+                <option value="url(https://images.unsplash.com/photo-1542093978-f89a1a42f876?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80)">Imagen1</option>
+                <option value="url(https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)">Imagen2</option>
+                <option value="url(https://images.unsplash.com/photo-1542451313056-b7c8e626645f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80)">Imagen3</option>
+                <option value="url(https://mobimg.b-cdn.net/v3/fetch/3a/3afda9fff30a7e792a9fdf819267a536.jpeg?h=900&r=0.5)">Imagen4</option>
+                <option value="url(https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)">Imagen5</option>
+                <option value="url(https://images.pexels.com/photos/2150/sky-space-dark-galaxy.jpg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260)">Imagen6</option>
+        </select>
             <!-- div para imagen de bolsa y nombres del interior -->
             <div id="resultado">
                 <h3>El ganador es: <br /><span id = "winner"></span></h3>
@@ -38,11 +46,12 @@
                 <textarea id="textarea" placeholder="Nombres..." cols="30" rows="12"></textarea>
                 <button onclick="randomSelect()">Sorteo!</button>
                 <input type="button" onclick="reset()" value="Reset"></imput>
+            
             </div>
         </section>
     </main>
     <footer>
-        <script src="js/main.js"></script>
+        <script src="assets/js/main.js"></script>
     </footer>
 </body>
 </html>

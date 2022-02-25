@@ -44,4 +44,10 @@ function reset() {
     list.innerHTML = "";
     winner.innerHTML = "";   
     }
-    
+
+function cambiarFondo(x) {
+    console.log(x.value);
+
+    let body = document.getElementById("body");
+    body.style.backgroundImage = x.value;
+}
