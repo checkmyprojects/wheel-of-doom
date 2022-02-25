@@ -38,7 +38,7 @@
                 <h3>El ganador es: <br /><span id = "winner"></span></h3>
                 <ul id="list" in></ul>
             </div>
-            <div class="container-bag">
+            <div class="container-bag" id="bag">
                 <h3>
                     Introduce los nombres en líneas separadas.
                 </h3>
@@ -55,7 +55,7 @@
                  -->
             <!-- div para texto y botones -->
             <div class="container-text">
-                <textarea id="textarea" placeholder="Nombres..." cols="30" rows="12"></textarea>
+                <textarea id="textarea" placeholder="Nombres..." cols="30" rows="12" onkeyup="countChars(this)"></textarea>
                 <button onclick="randomSelect()">Sorteo!</button>
                 <input type="button" onclick="reset()" value="Reset"></imput>
             

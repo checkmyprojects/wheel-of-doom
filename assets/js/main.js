@@ -23,6 +23,7 @@ function reset() { //funtión to reset textarea and list
     console.log (list.innerHTML);
     list.innerHTML = "";
     winner.innerHTML = "";   
+    document.getElementById("bag").className = "container-bag"
     }
 
 function cambiarFondo(x) { //funtion to change backgroud
@@ -32,7 +33,26 @@ function cambiarFondo(x) { //funtion to change backgroud
     body.style.backgroundImage = x.value;
 }
 
-
+function countChars(obj){
+    let typeLength = obj.value.length;
+    if (typeLength < 10){
+        document.getElementById("bag").classList.remove("container-bag_anim1");
+        document.getElementById("bag").classList.remove("container-bag_anim2");
+        document.getElementById("bag").classList.remove("container-bag_anim3");
+    }
+    if (typeLength > 10 && typeLength < 20){
+        document.getElementById("bag").className += " container-bag_anim1";
+        document.getElementById("bag").classList.remove("container-bag_anim2");
+        document.getElementById("bag").classList.remove("container-bag_anim3");
+    }
+    if (typeLength > 20 && typeLength < 30){
+        document.getElementById("bag").className += " container-bag_anim2";
+        document.getElementById("bag").classList.remove("container-bag_anim3");
+    }
+    if (typeLength > 30 ){
+        document.getElementById("bag").className += " container-bag_anim3";
+    }
+}
 
 
 
