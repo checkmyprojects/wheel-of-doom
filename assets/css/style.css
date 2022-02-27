@@ -27,15 +27,17 @@ section{
     align-items: center;
     justify-content: space-around;
 }
+
+/* Animations */
 .container-bag_anim1 {
-    /* Start the shake animation and make the animation last for 0.5 seconds */
+    /* Start the shake animation and make the animation last for 2 seconds */
     animation: shake 2s;
   
     /* When the animation is finished, start again */
     animation-iteration-count: infinite;
 }
 .container-bag_anim2 {
-    /* Start the shake animation and make the animation last for 0.5 seconds */
+    /* Start the shake animation and make the animation last for 1 seconds */
     animation: shake 1s;
   
     /* When the animation is finished, start again */

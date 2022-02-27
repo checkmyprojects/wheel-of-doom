@@ -16,9 +16,13 @@ function randomSelect() {
         document.getElementById("list").appendChild(createLi);
     }
     document.getElementById('textarea').value = userInput.replace(randomLine, "");
+    // Browser text to speach
+    const synth = window.speechSynthesis;
+    let sayThis = new SpeechSynthesisUtterance(winner.innerHTML);
+    synth.speak(sayThis);
 }
 
-function reset() { //funtión to reset textarea and list
+function reset() { //function to reset textarea and list
     document.getElementById("textarea").value= "";
     console.log (list.innerHTML);
     list.innerHTML = "";
@@ -26,7 +30,7 @@ function reset() { //funtión to reset textarea and list
     document.getElementById("bag").className = "container-bag"
     }
 
-function cambiarFondo(x) { //funtion to change backgroud
+function cambiarFondo(x) { //function to change backgroud
     console.log(x.value);
 
     let body = document.getElementById("body");
