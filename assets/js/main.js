@@ -1,13 +1,17 @@
 function randomSelect() {
     // const input = document.getElementById('textarea').value;
+    // crea variable llamada input, dentro de esa variable guarda el contenido de textarea
     let input = document.getElementById('textarea').value;
+    // salto de linea
     input = input + '\n'; 
     textarea.value = input;
     // let trimmedText = textarea.value.replace(/\n+/g,'\n'); 
     // let trimmedText = input.replace(/\n+/g,'\n'); 
     // let trimmedText = input.replace(/^\s*$[\r\n]*|^[^\S\r\n]+|[^\S\r\n]+$|([^\S\r\n]){2,}/gm, '$1'); 
+    //es un filtro, guarda el resultado del filtro y lo mete en $1
     let trimmedText = input.replace(/\n(\n+)/g, '$1'); 
     // let trimmedText = input.split('\n').filter(x=> x !== '').join('\n');
+    //usamos método trim, quita espacio en blanco
     textarea.value = trimmedText;
     input = trimmedText.trim();
     // console.log(input);
