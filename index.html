@@ -7,10 +7,28 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://kit.fontawesome.com/21bce9948d.js" crossorigin="anonymous"></script>
     <title>Wheel of Doom</title>
+    
 </head>
 <body id="body"> <!--identificación para buscar la imagen de fondo-->
     <header>
         <h1>Bag of Doom</h1>
+        <select fondo="fondo" id="fondo" onchange="cambiarFondo(this)"> Estiliza la página
+            <option value="url()">Fondo blanco</option>
+            <option value="url(https://images6.alphacoders.com/518/thumb-1920-518877.jpg)">Carnaval</option>
+            <option value="url(https://images7.alphacoders.com/322/thumb-1920-322616.jpg)">Halloween</option>
+            <option value="url(https://images7.alphacoders.com/299/thumb-1920-299582.jpg)">SanValentin</option>
+            <option value="url(https://images7.alphacoders.com/993/thumb-1920-993764.jpg)">Primavera</option>
+            <option value="url(https://images7.alphacoders.com/313/thumb-1920-313699.jpg)">Sangre</option>
+            <option value="url(https://images2.alphacoders.com/386/thumb-1920-38622.jpg)">Montaña</option>
+            <option value="url(https://images3.alphacoders.com/939/thumb-1920-939176.png)">Estrellas</option>
+            <option value="url(https://images7.alphacoders.com/775/775120.jpg)">Simpsons</option>
+            <option value="url(https://images.alphacoders.com/257/thumb-1920-257871.jpg)">Matemáticas</option>
+            <option value="url(https://images.alphacoders.com/674/674925.png)">Viajes</option>
+            <option value="url(https://images7.alphacoders.com/810/810663.png)">Planetas</option>
+            <option value="url(https://images6.alphacoders.com/887/887690.jpg)">Fotografia</option>
+            <option value="url(https://images3.alphacoders.com/589/58905.jpg)">Música</option>
+            <option value="url(https://images8.alphacoders.com/659/659493.jpg)">Navidad</option>
+        </select>
 
         <button class="switch" id="switch">
             <span><i class="fa-solid fa-sun"></i></span>
@@ -20,36 +38,13 @@
     </header>
     <main>
         <section>
-            <select fondo="fondo" id="fondo" onchange="cambiarFondo(this)"> Estiliza la página
-                <option value="url()">Fondo blanco</option>
-                <option value="url(https://images6.alphacoders.com/518/thumb-1920-518877.jpg)">Carnaval</option>
-                <option value="url(https://images7.alphacoders.com/322/thumb-1920-322616.jpg)">Halloween</option>
-                <option value="url(https://images7.alphacoders.com/299/thumb-1920-299582.jpg)">SanValentin</option>
-                <option value="url(https://images7.alphacoders.com/993/thumb-1920-993764.jpg)">Primavera</option>
-                <option value="url(https://images7.alphacoders.com/313/thumb-1920-313699.jpg)">Sangre</option>
-                <option value="url(https://images2.alphacoders.com/386/thumb-1920-38622.jpg)">Montaña</option>
-                <option value="url(https://images3.alphacoders.com/939/thumb-1920-939176.png)">Estrellas</option>
-                <option value="url(https://images7.alphacoders.com/775/775120.jpg)">Simpsons</option>
-                <option value="url(https://images.alphacoders.com/257/thumb-1920-257871.jpg)">Matemáticas</option>
-                <option value="url(https://images.alphacoders.com/674/674925.png)">Viajes</option>
-                <option value="url(https://images7.alphacoders.com/810/810663.png)">Planetas</option>
-                <option value="url(https://images6.alphacoders.com/887/887690.jpg)">Fotografia</option>
-                <option value="url(https://images3.alphacoders.com/589/58905.jpg)">Música</option>
-                <option value="url(https://images8.alphacoders.com/659/659493.jpg)">Navidad</option>
-
-
-
-
-            </select>
+            
             <!-- div para imagen de bolsa y nombres del interior -->
             <div id="resultado">
-                <h3>El ganador es: <br /><span id = "winner"></span></h3>
-                <ul id="list" in></ul>
+                <h3>El ganador es: <span id = "winner"></span></h3>
+                <ol id="list" in></ol>
             </div>
             <div class="container-bag" id="bag">
-                <h3>
-                    Introduce los nombres en líneas separadas.
-                </h3>
                 
                 <!-- imagen de la bolsa -->
                 <!-- texto nombres -->
@@ -63,9 +58,9 @@
                  -->
             <!-- div para texto y botones -->
             <div class="container-text">
-                <textarea id="textarea" placeholder="Nombres..." cols="30" rows="12" onkeyup="countChars(this)"></textarea>
+                <textarea id="textarea" placeholder="Introduce los nombres en líneas separadas... " cols="30" rows="12" onkeyup="countChars(this)"></textarea>
                 <button onclick="randomSelect()">Sorteo!</button>
-                <input type="button" onclick="reset()" value="Reset"></imput>
+                <input type="button" onclick="reset()" value="Reset"></input>
             
             </div>
         </section>
