@@ -5,9 +5,13 @@
 header h1{
     text-align: center;
 }
+img{
+    width: 45%;
+    height: 45%;
+}
 header select{
     float: right;
-    margin: 0 4px 0 4px;
+    margin: 0 40px 0 4px;
     height: 30px;
     border-radius: 1000px;
 }
@@ -28,20 +32,32 @@ header #switch{
     background-position: center;
     text-align: center;
 }
-
 .container-text{
     width: 25%;
     display: flex;
     flex-direction: column;
+    border-radius: 5px;
 }
 #resultado{
     width: 25%;
-    height: 250px; 
+    height: 300px; 
 }
 #list{
     height: 150px;
     overflow-y: scroll; 
     border: 1px solid black;
+    border-radius: 5px;
+}
+textarea{
+    border-radius: 5px;
+}
+#sorteo{
+    border-radius: 5px;
+    margin-top: 5%;
+}
+input{
+    border-radius: 5%;
+    margin-top: 5%;
 }
 section{
     clear: both;
@@ -105,6 +121,7 @@ body.dark * {
     cursor: pointer;
     display: flex;
     outline: none;
+    margin-right: 5px;
 }
  .switch:after {
     content: "";

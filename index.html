@@ -6,17 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://kit.fontawesome.com/21bce9948d.js" crossorigin="anonymous"></script>
-    <title>Wheel of Doom</title>
+    <title>Bag of Doom</title>
+    <link rel="icon" type="image/x-icon" href="/assets/img/favicon.png">
     
 </head>
 <body id="body"> <!--identificación para buscar la imagen de fondo-->
     <header>
-        <h1>Bag of Doom</h1>
+        <h1>
+            <img src="/assets/img/logo.png">
+        </h1>
         <select fondo="fondo" id="fondo" onchange="cambiarFondo(this)"> Estiliza la página
             <option value="url()">Fondo blanco</option>
             <option value="url(https://images6.alphacoders.com/518/thumb-1920-518877.jpg)">Carnaval</option>
             <option value="url(https://images7.alphacoders.com/322/thumb-1920-322616.jpg)">Halloween</option>
-            <option value="url(https://images7.alphacoders.com/299/thumb-1920-299582.jpg)">SanValentin</option>
+            <option value="url(https://images7.alphacoders.com/299/thumb-1920-299582.jpg)">SanValentín</option>
             <option value="url(https://images7.alphacoders.com/993/thumb-1920-993764.jpg)">Primavera</option>
             <option value="url(https://images7.alphacoders.com/313/thumb-1920-313699.jpg)">Sangre</option>
             <option value="url(https://images2.alphacoders.com/386/thumb-1920-38622.jpg)">Montaña</option>
@@ -25,7 +28,7 @@
             <option value="url(https://images.alphacoders.com/257/thumb-1920-257871.jpg)">Matemáticas</option>
             <option value="url(https://images.alphacoders.com/674/674925.png)">Viajes</option>
             <option value="url(https://images7.alphacoders.com/810/810663.png)">Planetas</option>
-            <option value="url(https://images6.alphacoders.com/887/887690.jpg)">Fotografia</option>
+            <option value="url(https://images6.alphacoders.com/887/887690.jpg)">Fotografía</option>
             <option value="url(https://images3.alphacoders.com/589/58905.jpg)">Música</option>
             <option value="url(https://images8.alphacoders.com/659/659493.jpg)">Navidad</option>
         </select>
@@ -59,7 +62,7 @@
             <!-- div para texto y botones -->
             <div class="container-text">
                 <textarea id="textarea" placeholder="Introduce los nombres en líneas separadas... " cols="30" rows="12" onkeyup="countChars(this)"></textarea>
-                <button onclick="randomSelect()">Sorteo!</button>
+                <button id="sorteo" onclick="randomSelect()">¡Sorteo!</button>
                 <input type="button" onclick="reset()" value="Reset"></input>
             
             </div>
