@@ -27,7 +27,7 @@ See **Deployment** to learn how to deploy the project.
 
 Verifies the proper functioning of the web with the technologies applied to it.
 
-![Image text](/Users/inicio/OneDrive/Documentos/Factoria F5/BOOTCAMP/PROYECTO 03 - Bag of Doom JESUS, GLAUCIA, RAQUEL Y YESSICA/wheel-of-doom-1/assets/img/img_readme.png)
+![Image text](assets/img/img_readme.png)
 
 ## Made it 🛠️
 
