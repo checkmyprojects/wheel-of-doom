@@ -2,69 +2,39 @@
 
 Design a web to choose a random value by the user.
 
-## Comenzando 🚀
+## Starting 🚀
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+- Open VS Code.
+- Push Clone Git Repository.
+- Paste https://github.com/checkmyprojects/wheel-of-doom.
+- Enjoy.
 
-Mira **Deployment** para conocer como desplegar el proyecto.
+See **Deployment** to learn how to deploy the project.
 
 
-### Pre-requisitos 📋
+### Requeriments 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+- VS Code.
+- Browser.
 
-```
-Da un ejemplo
-```
+### Installation 🔧
 
-### Instalación 🔧
+- Git clone https://github.com/checkmyprojects/wheel-of-doom.
+- Click on Run - Start debugging.
+- Enjoy.
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+### Coding style tests ⌨️
 
-_Dí cómo será ese paso_
+Verifies the proper functioning of the web with the technologies applied to it.
 
-```
-Da un ejemplo
-```
-
-_Y repite_
-
-```
-hasta finalizar
-```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
-
-## Ejecutando las pruebas ⚙️
-
-_Explica como ejecutar las pruebas automatizadas para este sistema_
-
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-### Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-## Despliegue 📦
-
-_Agrega notas adicionales sobre como hacer deploy_
+![Image text](/Users/inicio/OneDrive/Documentos/Factoria F5/BOOTCAMP/PROYECTO 03 - Bag of Doom JESUS, GLAUCIA, RAQUEL Y YESSICA/wheel-of-doom-1/assets/img/img_readme.png)
 
 ## Made it 🛠️
 
 
 * [Trello](https://trello.com/b/LAXZpvTz/123-coders) - Project Organization.
-* [balsamiq](https://balsamiq.cloud/s5tauor/p75s6vf/rDB97) - 
-* [figma](https://www.figma.com/file/uDFYrQYkMYordGhM3zFO60/Wheel-of-doom) - The web framework used.
+* [Balsamiq](https://balsamiq.cloud/s5tauor/p75s6vf/rDB97) - 
+* [Figma](https://www.figma.com/file/uDFYrQYkMYordGhM3zFO60/Wheel-of-doom) - The web framework used.
 * [HTML & CSS] - HTML for the creation of the web page and CSS to style it.
 * [JAVASCRIPT] - To give animations to the web.
 * [GIT] - Keeping track of changes in computer files including coordinating team work.
@@ -85,7 +55,7 @@ Raquel Castro
 
 ## Licency 📄
 
-Este proyecto está bajo la Licencia (123 Coders!) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+This project is licensed under the (123 Coders!) License - see the file [LICENSE.md](LICENSE.md) for details.
 
 ## Thanks 🎁
 
