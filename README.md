@@ -34,10 +34,12 @@ Verifies the proper functioning of the web with the technologies applied to it.
 
 * [Trello](https://trello.com/b/LAXZpvTz/123-coders) - Project Organization.
 * [Balsamiq](https://balsamiq.cloud/s5tauor/p75s6vf/rDB97) - 
+* [Logoist 4](https://www.syniumsoftware.com/logoist) - Logo & Favicon design.
 * [Figma](https://www.figma.com/file/uDFYrQYkMYordGhM3zFO60/Wheel-of-doom) - The web framework used.
 * [HTML & CSS] - HTML for the creation of the web page and CSS to style it.
 * [JAVASCRIPT] - To give animations to the web.
-* [GIT] - Keeping track of changes in computer files including coordinating team work.
+* [GIT & GITHUB] - Keeping track of changes in computer files including coordinating team work.
+* [Ilustrator] - Images editing.
 
 
 ## Versions 📌
