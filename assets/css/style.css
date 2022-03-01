@@ -2,6 +2,10 @@
 *{
     background-size: cover;
 }
+body{
+    background-image: url('https://images4.alphacoders.com/793/7938.jpg');
+    background-size: cover;
+}
 header h1{
     text-align: center;
 }
@@ -39,9 +43,24 @@ header #switch{
     border-radius: 5px;
 }
 .container-text button{
-    background-color: rgba(145, 131, 131, 0.5);
-    color: white;
+    background-color: rgba(66, 211, 73, 0.5);
+    color: green;
     font-weight: bold;
+}
+.container-text input{
+    background-color: rgba(201, 43, 43, 0.5);
+    color: red;
+    font-weight: bold;
+}
+.container-text .text *{
+    width: 49%;
+    margin: 0;
+    line-height: 24px;
+    font-size: 18px;
+}
+h3{
+    font-size: 32px;
+    font-family: 'Architects Daughter', cursive;
 }
 #resultado{
     width: 25%;
@@ -52,7 +71,8 @@ header #switch{
     font-size: 18px;
 }
 #list{
-    height: 150px;
+    margin: 0;
+    height: 300px;
     overflow-y: scroll; 
     border: 1px solid black;
     border-radius: 5px;
@@ -81,6 +101,7 @@ section{
 }
 .bag-main{
     text-align: center;
+    font-size: 18px;
 }
 
 /* Animations */
@@ -123,9 +144,12 @@ section{
 /* Modo Oscuro */
 
 
-body.dark * {
-    background: #010101;
+body.dark {
+    /* background: #01010148; */
+    background-color: #00000096;
     color: white;
+    background-blend-mode: darken;
+    background-size: cover;
 }
    
 
