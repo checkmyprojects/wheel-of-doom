@@ -20,8 +20,8 @@ function randomSelect() {
     const synth = window.speechSynthesis;
     let sayThis = new SpeechSynthesisUtterance(winner.innerHTML);
     synth.speak(sayThis);
-    play();
-    // queda añadir sonido
+    // play();
+    setTimeout('play()', 500);
 }
 function play() {
     let audio = document.getElementById("audio");
@@ -68,6 +68,8 @@ const btnSwitch = document.querySelector('#switch');
 
 btnSwitch.addEventListener('click', () => {
     document.body.classList.toggle('dark');
+    document.querySelector('#fondo').classList.toggle('dark');
+    document.querySelector('#sorteo').classList.toggle('dark');
     btnSwitch.classList.toggle('active');
 });
 
