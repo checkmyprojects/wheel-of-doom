@@ -42,29 +42,32 @@
     <main>
         <section>
             
-            <!-- div para imagen de bolsa y nombres del interior -->
-            <div id="resultado">
-                <h3>El ganador es: <span id = "winner"></span></h3>
-                <ol id="list" in></ol>
-            </div>
-            <div class="container-bag" id="bag">
-                
-                <!-- imagen de la bolsa -->
-                <!-- texto nombres -->
-            </div>
-            <!--  -->
-            <!-- CODIGO PARA EL RESET DEL BOTON -->
-            <!-- <input type="button" onclick="reset()" value="Reset">
-            function reset() {
-                document.getElementById("textarea").value = "";
-                }
-                 -->
-            <!-- div para texto y botones -->
             <div class="container-text">
                 <textarea id="textarea" placeholder="Introduce los nombres en líneas separadas... " cols="30" rows="12" onkeyup="countChars(this)"></textarea>
                 <button id="sorteo" onclick="randomSelect()">¡Sorteo!</button>
                 <input type="button" onclick="reset()" value="Reset"></input>
             
+            </div>
+            <div class="bag-main">
+                <h3>El ganador es: <span id = "winner"></span></h3>
+                <div class="container-bag" id="bag">
+                    
+                    <!-- imagen de la bolsa -->
+                    <!-- texto nombres -->
+                </div>
+                <!--  -->
+                <!-- CODIGO PARA EL RESET DEL BOTON -->
+                <!-- <input type="button" onclick="reset()" value="Reset">
+                    function reset() {
+                        document.getElementById("textarea").value = "";
+                    }
+                -->
+                <!-- div para texto y botones -->
+            </div>
+            <!-- div para imagen de bolsa y nombres del interior -->
+            <div id="resultado">
+                <!-- <h3>El ganador es: <span id = "winner"></span></h3> -->
+                <ol id="list" in></ol>
             </div>
         </section>
     </main>
