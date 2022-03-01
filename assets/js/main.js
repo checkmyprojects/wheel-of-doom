@@ -20,7 +20,12 @@ function randomSelect() {
     const synth = window.speechSynthesis;
     let sayThis = new SpeechSynthesisUtterance(winner.innerHTML);
     synth.speak(sayThis);
+    play();
     // queda añadir sonido
+}
+function play() {
+    let audio = document.getElementById("audio");
+    audio.play();
 }
 
 function reset() { //function to reset textarea and list

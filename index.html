@@ -41,11 +41,11 @@
             <div class="container-text">
                 <textarea id="textarea" placeholder="Introduce los nombres en líneas separadas... " cols="30" rows="12" onkeyup="countChars(this)"></textarea>
                 <div class="text">
-                    <button id="sorteo" onclick="randomSelect()">¡Sorteo!</button>
+                    <button id="sorteo" onclick="randomSelect()" >¡Sorteo!</button>
                     <input type="button" onclick="reset()" value="Reset"></input>
 
                 </div>
-            
+                <audio id="audio" src="assets/sound/mario.m4a"></audio>
             </div>
             <div class="bag-main">
                 <h3>Quien invita es: <span id = "winner"></span></h3>
