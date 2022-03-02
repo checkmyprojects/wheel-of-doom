@@ -31,10 +31,7 @@ header #switch{
 .container-bag{
     width: 380px;
     height: 400px;
-    /* width: 600px; */
-    /* background-color: red; */
     background-color: transparent;
-    /* margin-left: 20%; */
     background-image: url(../img/4099933.svg);
     background-size: 90%;
     background-repeat: no-repeat;
@@ -48,14 +45,12 @@ header #switch{
     border-radius: 5px;
 }
 .container-text button{
-    /* background-color: rgba(66, 211, 73, 0.5); */
     background-color: rgba(249, 181, 45, 0.8);
     color: rgb(0, 0, 0);
     font-weight: bold;
     border-radius: 1000px;
 }
 .container-text input{
-    /* background-color: rgba(201, 43, 43, 0.5); */
     background-color: rgba(249, 181, 45, 0.8);
     color: rgb(0, 0, 0);
     font-weight: bold;
@@ -239,7 +234,6 @@ body.dark {
         
     }
     .container-text{
-        /* padding-left: 13px; */
         margin-top: 10px;
         width: 90%;
         height: 200px;
@@ -249,7 +243,6 @@ body.dark {
         padding: 0;
     }
     #resultado{
-        /* margin-left: 13px; */
         width: 95%;
     }
     #switch{
