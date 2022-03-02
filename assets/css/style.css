@@ -13,6 +13,8 @@ h3{
     background-color: rgba(145, 131, 131, 0.5);
     border: 1px solid grey;
     border-radius: 1000px;
+    font-size: 32px;
+    font-family: 'Architects Daughter', cursive;
 }
 img{
     width: 45%;
@@ -64,10 +66,6 @@ header #switch{
 }
 #winner{
     color: rgb(199, 109, 0);
-}
-h3{
-    font-size: 32px;
-    font-family: 'Architects Daughter', cursive;
 }
 #resultado{
     width: 25%;
