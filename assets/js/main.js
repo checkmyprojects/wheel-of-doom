@@ -70,6 +70,7 @@ btnSwitch.addEventListener('click', () => {
     document.body.classList.toggle('dark');
     document.querySelector('#fondo').classList.toggle('dark');
     document.querySelector('#sorteo').classList.toggle('dark');
+    document.querySelector('#resetButton').classList.toggle('dark');
     btnSwitch.classList.toggle('active');
 });
 

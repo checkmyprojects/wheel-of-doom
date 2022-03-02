@@ -20,12 +20,12 @@
         </h1>
         <select fondo="fondo" id="fondo" onchange="cambiarFondo(this)"> Estiliza la página
             <!-- <option value="url()">Fondo blanco</option> -->
+            <option value="url(https://images4.alphacoders.com/793/7938.jpg)">Cerveza</option>
             <!-- <option value="url(https://images7.alphacoders.com/413/413732.jpg)">Chupito</option> -->
-            <option value="url(https://images.alphacoders.com/276/276881.jpg)">Marguerita</option>
-            <option value="url(https://images2.alphacoders.com/130/thumb-1920-130252.jpg)">Mojito</option>
+            <option value="url(https://images.alphacoders.com/276/276881.jpg)">Margarita</option>
+            <option value="url(https://images6.alphacoders.com/766/766532.jpg)">Mojito</option>
             <!-- <option value="url(https://images3.alphacoders.com/173/173999.jpg)">Primavera</option> -->
             <option value="url(https://images7.alphacoders.com/409/409769.jpg)">Hielo</option>
-            <option value="url(https://images4.alphacoders.com/793/7938.jpg)">Cerveza</option>
             <!-- <option value="url(https://images8.alphacoders.com/437/437622.jpg)">Cerveza2</option> -->
         </select>
 
@@ -42,7 +42,7 @@
                 <textarea id="textarea" placeholder="Introduce los nombres en líneas separadas... " cols="30" rows="12" onkeyup="countChars(this)"></textarea>
                 <div class="text">
                     <button id="sorteo" onclick="randomSelect()" >¡Sorteo!</button>
-                    <input type="button" onclick="reset()" value="Reset"></input>
+                    <input type="button" onclick="reset()" value="Reset" id="resetButton"></input>
 
                 </div>
                 <audio id="audio" src="assets/sound/coins-falling.mp3"></audio>

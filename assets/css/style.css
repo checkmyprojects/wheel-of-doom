@@ -9,6 +9,11 @@ body{
 header h1{
     text-align: center;
 }
+h3{
+    background-color: rgba(145, 131, 131, 0.5);
+    border: 1px solid grey;
+    border-radius: 1000px;
+}
 img{
     width: 45%;
     height: 45%;
@@ -24,7 +29,7 @@ header #switch{
 }
 
 .container-bag{
-    width: 400px;
+    width: 380px;
     height: 400px;
     /* width: 600px; */
     /* background-color: red; */
@@ -43,14 +48,16 @@ header #switch{
     border-radius: 5px;
 }
 .container-text button{
-    background-color: rgba(66, 211, 73, 0.5);
-    color: green;
+    /* background-color: rgba(66, 211, 73, 0.5); */
+    background-color: rgba(249, 181, 45, 0.8);
+    color: rgb(0, 0, 0);
     font-weight: bold;
     border-radius: 1000px;
 }
 .container-text input{
-    background-color: rgba(201, 43, 43, 0.5);
-    color: red;
+    /* background-color: rgba(201, 43, 43, 0.5); */
+    background-color: rgba(249, 181, 45, 0.8);
+    color: rgb(0, 0, 0);
     font-weight: bold;
     border-radius: 1000px;
 }
@@ -61,7 +68,7 @@ header #switch{
     font-size: 18px;
 }
 #winner{
-    color: red;
+    color: rgb(199, 109, 0);
 }
 h3{
     font-size: 32px;
@@ -215,10 +222,15 @@ body.dark {
     h1 *{
         width: 90%;
     }
+    h3{
+        width: 90%;
+        margin: 12px 5px 0 18px !important;
+        
+    }
     .container-text{
-        padding-left: 13px;
+        /* padding-left: 13px; */
         margin-top: 10px;
-        width: 100%;
+        width: 90%;
         height: 200px;
     }
     .bag-main *{
@@ -226,8 +238,8 @@ body.dark {
         padding: 0;
     }
     #resultado{
-        margin-left: 13px;
-        width: 100%;
+        /* margin-left: 13px; */
+        width: 95%;
     }
     #switch{
         margin-right: 100px;
