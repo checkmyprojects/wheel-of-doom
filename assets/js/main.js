@@ -1,10 +1,7 @@
 function randomSelect() {
     let userInput = document.getElementById('textarea').value; // store textarea content in userInput
-    console.log(userInput);
     let userInputSplit = userInput.split(/\r?\n/); // Split input text into an array of lines
-    console.log(userInputSplit);
     userInputSplit = userInputSplit.filter(line => line.trim() !== ""); // filter out lines that are empty or contain only whitespace
-    console.log(userInputSplit);
     userInput = userInputSplit.join("\n"); // join array into a string
     document.getElementById('textarea').value = userInput; // replace textarea text with filtered text
     const randomLine = userInputSplit[Math.floor(Math.random() * userInputSplit.length)]; // pick random line from filtered textarea array
