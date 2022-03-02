@@ -27,7 +27,8 @@ See **Deployment** to learn how to deploy the project.
 
 Verifies the proper functioning of the web with the technologies applied to it.
 
-![Image text](assets/img/img_readme.png)
+![Image text](assets/img/light.png)
+![Image text](assets/img/dark.png)
 
 ## Made it 🛠️
 
