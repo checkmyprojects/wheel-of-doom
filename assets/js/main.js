@@ -8,7 +8,9 @@ function randomSelect() {
     userInput = userInputSplit.join("\n"); // join array into a string
     document.getElementById('textarea').value = userInput; // replace textarea text with filtered text
     const randomLine = userInputSplit[Math.floor(Math.random() * userInputSplit.length)]; // pick random line from filtered textarea array
-    document.getElementById('winner').innerHTML = randomLine;
+    if (randomLine != undefined){
+        document.getElementById('winner').innerHTML = randomLine;
+    }
     if (randomLine.length > 0){
         let createLi = document.createElement("li"); // create constructor createLi 
         let userInputText = document.createTextNode(randomLine);
