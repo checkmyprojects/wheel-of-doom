@@ -3,8 +3,7 @@
 Design a website to choose a random from a use list.
 
 ## See Live Demo at:
-![Image text](assets/img/qr.png)
-https://checkmyprojects.github.io/wheel-of-doom/
+![Image text](assets/img/qr.png) 
 
 ## Starting 🚀
 
