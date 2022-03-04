@@ -1,6 +1,6 @@
-# BEER of DOOM
+# ![Image text](assets/img/logo.png)
 
-Design a website to choose a random from a use list.
+Design a website to choose a random line from a user list.
 
 ## See Live Demo at:
 ![Image text](assets/img/qr.png) 
@@ -22,7 +22,7 @@ See **Installation** to learn how to deploy the project.
 
 ### Installation 🔧
 
-- Git clone https://github.com/checkmyprojects/wheel-of-doom.
+- Git clone https://github.com/checkmyprojects/wheel-of-doom.git
 - Open index.html.
 - Enjoy.
 

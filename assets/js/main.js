@@ -5,22 +5,22 @@ function randomSelect() {
     userInput = userInputSplit.join("\n"); // join array into a string
     document.getElementById('textarea').value = userInput; // replace textarea text with filtered text
     const randomLine = userInputSplit[Math.floor(Math.random() * userInputSplit.length)]; // pick random line from filtered textarea array
-    if (randomLine != undefined){
-        document.getElementById('winner').innerHTML = randomLine;
+    if (randomLine != undefined){ // if != than undeffined means that winner exists
+        document.getElementById('winner').innerHTML = randomLine; // print winner on DOM
     }
-    if (randomLine.length > 0){
+    if (randomLine.length > 0){ // check if winner has a value
         let createLi = document.createElement("li"); // create constructor createLi 
         let userInputText = document.createTextNode(randomLine);
-        createLi.appendChild(userInputText);
-        document.getElementById("list").appendChild(createLi);
+        createLi.appendChild(userInputText); // create li with winner text
+        document.getElementById("list").appendChild(createLi); // add li to DOM
     }
-    document.getElementById('textarea').value = userInput.replace(randomLine, "");
+    document.getElementById('textarea').value = userInput.replace(randomLine, ""); // replace on textarea the winner name with nothing (removes the line)
     // Browser text to speach
     const synth = window.speechSynthesis;
     let sayThis = new SpeechSynthesisUtterance(winner.innerHTML);
     synth.speak(sayThis);
     // play();
-    setTimeout('play()', 500);
+    setTimeout('play()', 500); // add 500ms delay to execution of delay function
 }
 function play() {
     let audio = document.getElementById("audio");
@@ -28,11 +28,11 @@ function play() {
 }
 
 function reset() { //function to reset textarea and list
-    document.getElementById("textarea").value= "";
-    console.log (list.innerHTML);
-    list.innerHTML = "";
-    winner.innerHTML = "";   
-    document.getElementById("bag").className = "container-bag"
+    document.getElementById("textarea").value= ""; // remove text on textarea
+    console.log (list.innerHTML); 
+    list.innerHTML = ""; // remove list li items
+    winner.innerHTML = ""; // remove winner span text
+    document.getElementById("bag").className = "container-bag" // remove animation classes from the image
     }
 
 function cambiarFondo(x) { //function to change backgroud
@@ -44,32 +44,32 @@ function cambiarFondo(x) { //function to change backgroud
 
 function countChars(obj){
     let typeLength = obj.value.length;
-    if (typeLength < 10){
+    if (typeLength < 10){ // remove all animation classes
         document.getElementById("bag").classList.remove("container-bag_anim1");
         document.getElementById("bag").classList.remove("container-bag_anim2");
         document.getElementById("bag").classList.remove("container-bag_anim3");
     }
-    if (typeLength > 10 && typeLength < 20){
+    if (typeLength > 10 && typeLength < 20){ // add 1 animation and remove the others
         document.getElementById("bag").className += " container-bag_anim1";
         document.getElementById("bag").classList.remove("container-bag_anim2");
         document.getElementById("bag").classList.remove("container-bag_anim3");
     }
-    if (typeLength > 20 && typeLength < 30){
+    if (typeLength > 20 && typeLength < 30){ // add 1 animation and remove the other one without touching the anim1
         document.getElementById("bag").className += " container-bag_anim2";
         document.getElementById("bag").classList.remove("container-bag_anim3");
     }
     if (typeLength > 30 ){
-        document.getElementById("bag").className += " container-bag_anim3";
+        document.getElementById("bag").className += " container-bag_anim3"; // add anim3
     }
 }
 
 const btnSwitch = document.querySelector('#switch');
 
 btnSwitch.addEventListener('click', () => {
-    document.body.classList.toggle('dark');
-    document.querySelector('#fondo').classList.toggle('dark');
-    document.querySelector('#sorteo').classList.toggle('dark');
-    document.querySelector('#resetButton').classList.toggle('dark');
+    document.body.classList.toggle('dark'); // add dark class to background
+    document.querySelector('#fondo').classList.toggle('dark'); // fondo list
+    document.querySelector('#sorteo').classList.toggle('dark'); // sorteo button
+    document.querySelector('#resetButton').classList.toggle('dark'); // reset button
     btnSwitch.classList.toggle('active');
 });
 
