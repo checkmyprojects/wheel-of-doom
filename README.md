@@ -1,4 +1,4 @@
-# BEER of DOOM
+# ![Image text](assets/img/logo.png)
 
 Design a website to choose a random line from a user list.
 
